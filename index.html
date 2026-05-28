@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Routinely</title>
+
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="app">
+
+    <!-- TOP BAR -->
+
+    <div class="top-bar">
+
+      <button class="filter-btn">
+        <i class="fa-solid fa-bars"></i>
+        Filter
+      </button>
+
+      <div class="tabs">
+
+        <button class="star-btn">
+          ✦
+        </button>
+
+        <div class="tab-group">
+          <div class="tab active">Routine</div>
+          <div class="tab">Checklist</div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- TIMELINE -->
+
+    <div class="timeline-wrapper">
+
+      <div class="timeline" id="timeline"></div>
+
+      <!-- USER TASKS -->
+      <div class="tasks-container" id="tasksContainer"></div>
+
+    </div>
+
+  </div>
+
+  <!-- ADD BUTTON -->
+
+  <button class="add-btn" id="addBtn">
+    +
+  </button>
+
+  <!-- BOTTOM NAV -->
+
+  <div class="bottom-nav">
+
+    <div class="nav-item active-nav">
+      <i class="fa-regular fa-circle-play"></i>
+    </div>
+
+    <div class="nav-item">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+
+    <div class="nav-item">
+      <i class="fa-solid fa-user-group"></i>
+    </div>
+
+    <div class="nav-item">
+      <i class="fa-solid fa-chart-simple"></i>
+    </div>
+
+    <div class="nav-item">
+      <i class="fa-regular fa-user"></i>
+    </div>
+
+  </div>
+
+  <!-- JAVASCRIPT -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
